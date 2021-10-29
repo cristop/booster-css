@@ -1,4 +1,4 @@
-/*! Developed by Cristo | v 1.0.4  | With Normalize | normalize.css v8.0.1 */
+/*! Developed by Cristo | v 1.0.5  | With Normalize | normalize.css v8.0.1 */
 
 /* Normalize */
 /* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -493,11 +493,11 @@ img {
 
 /* Grids */
 .flex {
-    display: -webkit-inline-flex;
-    display: -moz-inline-flex;
-    display: -ms-inline-flex;
-    display: -o-inline-flex;
-    display: inline-flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
     width: 100%;
 }
 
@@ -791,7 +791,7 @@ img {
 }
 
 /***** Custom radio ****/
-/* EMMET .custom-checkbox>input[type="checkbox"]+span */
+/* EMMET label.custom-checkbox>input[type="checkbox"]+span */
 .custom-checkbox input[type="checkbox"],
 .custom-radio input[type="radio"] {
     display: none;
