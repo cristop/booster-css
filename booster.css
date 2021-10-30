@@ -1,4 +1,4 @@
-/*! Developed by Cristo | v 1.0.5  | With Normalize | normalize.css v8.0.1 */
+/*! Developed by Cristo | v 1.0.6  | With Normalize | normalize.css v8.0.1 */
 
 /* Normalize */
 /* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -813,6 +813,9 @@ img {
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
     background-color: #fff;
+
+    background-image: url("data:image/svg+xml,%3csvg%20aria-hidden='true'%20focusable='false'%20data-prefix='fas'%20data-icon='check'%20class='svg-inline--fa%20fa-check%20fa-w-16'%20role='img'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'%3e%3cpath%20fill='%23fff'%20d='M173.898%20439.404l-166.4-166.4c-9.997-9.997-9.997-26.206%200-36.204l36.203-36.204c9.997-9.998%2026.207-9.998%2036.204%200L192%20312.69%20432.095%2072.596c9.997-9.997%2026.207-9.997%2036.204%200l36.203%2036.204c9.997%209.997%209.997%2026.206%200%2036.204l-294.4%20294.401c-9.998%209.997-26.207%209.997-36.204-.001z'%3e%3c/path%3e%3c/svg%3e");
+    background: no-repeat center center/10px 15px var(--c-primary);
 }
 
 .custom-radio input[type="radio"]+span {
@@ -821,7 +824,6 @@ img {
 
 .custom-checkbox input[type="checkbox"]:checked+span,
 .custom-radio input[type="radio"]:checked+span {
-    border: 1px solid var(--c-primary);
-    background: url("data:image/svg+xml,%3csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='check' class='svg-inline--fa fa-check fa-w-16' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3e%3cpath fill='%23fff' d='M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z'%3e%3c/path%3e%3c/svg%3e") no-repeat center center/10px 15px var(--c-primary);
+    border: 1px solid var(--c-primary);    
     -webkit-transition: all 0.2s ease;
 }
