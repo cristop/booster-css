@@ -1,4 +1,4 @@
-/*! Developed by Cristo | v 1.0.6  | With Normalize | normalize.css v8.0.1 */
+/*! Developed by Cristo | v 1.0.8  | With Normalize | normalize.css v8.0.1 */
 
 /* Normalize */
 /* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -768,7 +768,10 @@ img {
 }
 
 .animated-label input:focus+label,
-.animated-label input:not(:placeholder-shown)+label {
+.animated-label input:not(:placeholder-shown)+label,
+.animated-label textarea:focus+label,
+.animated-label textarea:not(:placeholder-shown)+label
+.animated-label label.active {
     transform: translateY(-30px);
     padding-left: 3px;
     font-size: 10px;
