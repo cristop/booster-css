@@ -770,7 +770,7 @@ img {
 .animated-label input:focus+label,
 .animated-label input:not(:placeholder-shown)+label,
 .animated-label textarea:focus+label,
-.animated-label textarea:not(:placeholder-shown)+label
+.animated-label textarea:not(:placeholder-shown)+label,
 .animated-label label.active {
     transform: translateY(-30px);
     padding-left: 3px;
