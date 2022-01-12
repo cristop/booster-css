@@ -1,4 +1,4 @@
-/*! Developed by Cristo | v 1.0.8  | With Normalize | normalize.css v8.0.1 */
+/*! Developed by Cristo | v 1.0.9  | With Normalize | normalize.css v8.0.1 */
 
 /* Normalize */
 /* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -724,7 +724,7 @@ img {
 /*Mobile*/
 @media screen and (min-width:900px) {
     .show-mobile {
-        display: none;
+        display: none !important;
     }
 
     .text-center {
