@@ -507,10 +507,8 @@ img {
         display: inline-block;
         vertical-align: middle;
     }*/
-    .flex{
+    .flex[class*="d-col-"]{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
     } 
     .flex.d-col-2 {
         grid-template-columns: repeat(2, 1fr);
