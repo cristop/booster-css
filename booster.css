@@ -1,4 +1,4 @@
-/*! Developed by Cristo | v 1.16  | With Normalize | normalize.css v8.0.1 */
+/*! Developed by Cristo | v 1.17  | With Normalize | normalize.css v8.0.1 */
 
 /* Normalize */
 /* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -509,7 +509,8 @@ img {
     }*/
     .flex[class*="d-col-"]{
         display: grid;
-    } 
+    }
+    
     .flex.d-col-2 {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -552,6 +553,50 @@ img {
     
     .flex.d-col-12 {
         grid-template-columns: repeat(12, 1fr);
+    }
+
+    .d-colspan-2 {
+        grid-column: span 2;
+    }
+
+    .d-colspan-3 {
+        grid-column: span 3;
+    }
+
+    .d-colspan-4 {
+        grid-column: span 4;
+    }
+
+    .d-colspan-5 {
+        grid-column: span 5;
+    }
+
+    .d-colspan-6 {
+        grid-column: span 6;
+    }
+
+    .d-colspan-7 {
+        grid-column: span 7;
+    }
+
+    .d-colspan-8 {
+        grid-column: span 8;
+    }
+
+    .d-colspan-9 {
+        grid-column: span 9;
+    }
+
+    .d-colspan-10 {
+        grid-column: span 10;
+    }
+
+    .d-colspan-11 {
+        grid-column: span 11;
+    }
+
+    .d-colspan-12 {
+        grid-column: span 12;
     }
 }
 
@@ -610,6 +655,50 @@ img {
     
     .flex.t-col-12 {
         grid-template-columns: repeat(12, 1fr);
+    }
+
+    .t-colspan-2 {
+        grid-column: span 2;
+    }
+
+    .t-colspan-3 {
+        grid-column: span 3;
+    }
+
+    .t-colspan-4 {
+        grid-column: span 4;
+    }
+
+    .t-colspan-5 {
+        grid-column: span 5;
+    }
+
+    .t-colspan-6 {
+        grid-column: span 6;
+    }
+
+    .t-colspan-7 {
+        grid-column: span 7;
+    }
+
+    .t-colspan-8 {
+        grid-column: span 8;
+    }
+
+    .t-colspan-9 {
+        grid-column: span 9;
+    }
+
+    .t-colspan-10 {
+        grid-column: span 10;
+    }
+
+    .t-colspan-11 {
+        grid-column: span 11;
+    }
+
+    .t-colspan-12 {
+        grid-column: span 12;
     }
 }
 
