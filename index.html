@@ -13,7 +13,8 @@
             font-family: 'Open Sans', sans-serif;
             margin-bottom: 30px;
         }
-        .flex > div{
+        .flex > div,
+        .grid > div{
             height: 30px;
         }
         /* declarascion de colores */
@@ -26,7 +27,8 @@
 </head>
 <body>
     <div class="container">
-        <p class="text-center">contenedor libre </p>
+        <br />
+        <h2>CLASE FLEX</h2>
         <br />
 
         La clase .flex sola, permite poner todas las columnas deseadas y dentro se ordenan solas, en mobile se ponen una debajo de la otra de manera automatica, en tablet se pone en 2 columnas <br />
@@ -35,19 +37,16 @@
         <div class="flex">
             <div style="background-color: blue;"></div>
             <div style="background-color: red;"></div>
-        </div>
-
-        <br />
-
-        <div class="flex">
-            <div style="background-color: aqua ;"></div>
             <div style="background-color: yellowgreen ;"></div>
-            <div style="background-color: teal ;"></div>
         </div>
 
         <br />
         <br />
+        <hr />
         <br />
+        <br />
+
+        
 
         Para cambiar el tamaño de una columna, se agrega la clase .w[porcentaje deseado, del 10 al 100] sobre el div que se quiere cambiar tamaño<br />
         <small>(Se pone sobre el div que se quiere achicar)</small><br /><br />
@@ -59,9 +58,87 @@
 
         <br />
         <br />
+        <hr />
+        <br />
         <br />
 
-        Para cambiar la cantidad de columnas mobile, usamos la clase .m-col-[cantidad que queremos]<br /><br />
+        <h2>CLASE GRID</h2>
+        <br />
+        La clase grid, por defecto crea una grilla de 12 columnas, y en tablet por defecto pasa a 2 y despues a 1 en mobile<br /><br /><br />
+
+        <div class="grid">
+            <div style="background-color: blue ;"></div>
+            <div style="background-color: yellowgreen ;"></div>
+            <div style="background-color: teal ;"></div>
+            <div style="background-color: red ;"></div>
+            <div style="background-color: blueviolet ;"></div>
+            <div style="background-color: aqua ;"></div>
+            <div style="background-color: blue ;"></div>
+            <div style="background-color: yellowgreen ;"></div>
+            <div style="background-color: teal ;"></div>
+            <div style="background-color: red ;"></div>
+            <div style="background-color: blueviolet ;"></div>
+            <div style="background-color: aqua ;"></div>
+
+            <div style="background-color: red ;"></div>
+            <div style="background-color: blueviolet ;"></div>
+            <div style="background-color: aqua ;"></div>
+            <div style="background-color: blue ;"></div>
+            <div style="background-color: yellowgreen ;"></div>
+            <div style="background-color: teal ;"></div>
+            <div style="background-color: red ;"></div>
+            <div style="background-color: blueviolet ;"></div>
+            <div style="background-color: aqua ;"></div>
+            <div style="background-color: blue ;"></div>
+            <div style="background-color: yellowgreen ;"></div>
+            <div style="background-color: teal ;"></div>
+        </div>
+
+
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+
+        Si se desea definir otra cantidad de columnas para DESKTOP, agregamos la clase <b>.d-col-[cantidad que queremos]</b> a la clase .grid<br>
+        Los elementos que sean hijos directos se pueden unir, usando la clase d-colspan-[cantidad que queremos unir]<br><br>
+
+        Usar <b>d</b>-colspan para <b>DESKTOP</b><br>
+        Usar <b>t</b>-colspan para <b>TABLET</b><br>
+        Usar <b>m</b>-colspan para <b>MOBILE</b><br>
+        <br />
+        <br />
+
+        Por defecto se perdera la union colspan en una resolucion diferente si no esta definida
+
+        <br />
+        <br />
+
+
+        <div class="grid d-col-3">
+            <div style="background-color: blue ;"></div>
+            <div style="background-color: yellowgreen ;" class="d-colspan-2">.d-colspan-2</div>
+            <div style="background-color: teal ;"></div>
+
+            <div style="background-color: red ;"></div>
+            <div style="background-color: blueviolet ;"></div>
+            <div style="background-color: aqua ;" class="d-colspan-3">.d-colspan-3</div>
+        </div>
+
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+
+        
+        <h2>RESPONSIVE</h2>
+        <br />
+
+        Para cambiar la cantidad de columnas mobile, usamos la clase .m-col-[cantidad que queremos], <br />
+        Vale para .flex, o para .grid
+        <br /><br />
 
         <div class="flex m-col-2">
             <div style="background-color: blueviolet;"></div>
@@ -71,6 +148,8 @@
         </div>
 
         <br />
+        <br />
+        <hr />
         <br />
         <br />
 
@@ -87,6 +166,8 @@
 
         <br />
         <br />
+        <hr />
+        <br />
         <br />
 
         Para mostrar u ocultar en mobile, usamos .show-mobile, o .hide-mobile <br /><br />
@@ -98,9 +179,15 @@
 
         <br />
         <br />
+        <hr />
         <br />
+        <br />
+
+        BOTONES (se debe definir previamente en el ::root, las variables --c-primary, --c-secondary, --c-terciary) <br /><br />
         <a href="#" class="btn">Boton</a>
         <a href="#" class="btn btn-primary">Boton Primary</a>
+        <a href="#" class="btn btn-secondary">Boton Secondary</a>
+        <a href="#" class="btn btn-terciary">Boton Terciary</a>
     </div>
 </body>
 </html>
