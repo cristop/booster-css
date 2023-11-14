@@ -1,4 +1,4 @@
-/*! Developed by Cristo | v 1.18  | With Normalize | normalize.css v8.0.1 */
+/*! Developed by Cristo | v 1.19  | With Normalize | normalize.css v8.0.1 */
 
 /* Normalize */
 /* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -825,8 +825,76 @@ img {
         width: 95%;
     }
 
-    .flex .w100 {
-        width: 100%;
+    .flex .w105 {
+        width: 105%;
+    }
+
+    .flex .w110 {
+        width: 110%;
+    }
+
+    .flex .w115 {
+        width: 115%;
+    }
+
+    .flex .w120 {
+        width: 120%;
+    }
+
+    .flex .w125 {
+        width: 125%;
+    }
+
+    .flex .w130 {
+        width: 130%;
+    }
+
+    .flex .w135 {
+        width: 135%;
+    }
+
+    .flex .w140 {
+        width: 140%;
+    }
+
+    .flex .w145 {
+        width: 145%;
+    }
+
+    .flex .w150 {
+        width: 150%;
+    }
+
+    .flex .w155 {
+        width: 155%;
+    }
+
+    .flex .w160 {
+        width: 160%;
+    }
+
+    .flex .w165 {
+        width: 165%;
+    }
+
+    .flex .w170 {
+        width: 170%;
+    }
+
+    .flex .w180 {
+        width: 180%;
+    }
+
+    .flex .w185 {
+        width: 185%;
+    }
+
+    .flex .w195 {
+        width: 195%;
+    }
+
+    .flex .w200 {
+        width: 200%;
     }
 }
 
