@@ -486,8 +486,16 @@ img {
     align-items: center;
 }
 
+.flex.flex-bottom {
+    align-items: flex-end;
+}
+
 .flex.flex-center {
     justify-content: center;
+}
+
+.flex.flex-center {
+    justify-content: flex-end;
 }
 
 .flex>* {
