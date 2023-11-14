@@ -1,4 +1,4 @@
-/*! Developed by Cristo | v 1.19  | With Normalize | normalize.css v8.0.1 */
+/*! Developed by Cristo | v 1.20  | With Normalize | normalize.css v8.0.1 */
 
 /* Normalize */
 /* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -494,7 +494,7 @@ img {
     justify-content: center;
 }
 
-.flex.flex-center {
+.flex.flex-right {
     justify-content: flex-end;
 }
 
