@@ -442,12 +442,32 @@ img {
     color: var(--c-terciary) !important;
 }
 
+.c-fourth {
+    color: var(--c-fourth) !important;
+}
+
 .c-white {
     color: white !important;
 }
 
 .c-black {
     color: black !important;
+}
+
+.f-primary {
+    filter: var(--f-primary) !important;
+}
+
+.f-secondary {
+    filter: var(--f-secondary) !important;
+}
+
+.f-terciary {
+    filter: var(--f-terciary) !important;
+}
+
+.f-fourth {
+    filter: var(--f-fourth) !important;
 }
 
 .bg-primary {
@@ -460,6 +480,10 @@ img {
 
 .bg-terciary {
     background-color: var(--c-terciary) !important;
+}
+
+.bg-fourth {
+    background-color: var(--c-fourth) !important;
 }
 
 .bg-black {
