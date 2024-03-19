@@ -1,4 +1,4 @@
-/*! Developed by Cristo | v 1.20  | With Normalize | normalize.css v8.0.1 */
+/*! Developed by Cristo | v 1.21  | With Normalize | normalize.css v8.0.1 */
 
 /* Normalize */
 /* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -527,7 +527,8 @@ img {
     position: relative;
 }
 
-.flex>.auto {
+.flex>.auto
+.flex.auto > * {
     width: auto;
 }
 
