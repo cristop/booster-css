@@ -527,7 +527,7 @@ img {
     position: relative;
 }
 
-.flex>.auto
+.flex>.auto,
 .flex.auto > * {
     width: auto;
 }
